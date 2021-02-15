@@ -1,0 +1,34 @@
+.header, .main {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+	text-align: center;
+}
+
+.categories {
+	background-color: rgb(146, 166, 223);
+	border: solid black;
+	border-radius: 15px;
+	float: left;
+	padding: 10px;
+}
+
+.catSelector {
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.gameArea {
+	margin-left: 100px;
+	float: left;
+}
+
+#messageBox, #strikeCounter {
+	font-weight: bold;
+}
+
+#word {
+	font-size: 24pt;
+}
+
