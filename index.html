@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<script src="hangman.js"></script>
+
+<body>
+    <div class="header">
+        <h1>Welcome to Hangman</h1>
+        <hr>
+    </div>
+    <div class="main">
+        <div class="categories">
+            <h2>Choose a category:</h2>
+            <button type="button" class="catSelector" id="button0" onclick="setRandomCategory()"> 0) Random </button><br>
+            <button type="button" class="catSelector" id="button1" onclick="setWord(usCities)"> 1) US Cities </button><br>
+            <button type="button" class="catSelector" id="button2" onclick="setWord(worldCities)"> 2) World Cities</button><br>
+            <button type="button" class="catSelector" id="button3" onclick="setWord(landmarks)"> 3) Landmarks </button><br>
+            <button type="button" class="catSelector" id="button4" onclick="setWord(foodAndDrink)"> 4) Food and Drink</button><br>
+            <button type="button" class="catSelector" id="button5" onclick="setWord(animals)"> 5) Animals </button><br>
+            <button type="button" class="catSelector" id="button6" onclick="setWord(instruments)"> 6) Musical Instruments </button><br>
+            <button type="button" class="catSelector" id="button7" onclick="setWord(singersBands)"> 7) Singers / Bands</button><br>
+            <button type="button" class="catSelector" id="button8" onclick="setWord(vidGameChars)"> 8) Video Game Characters </button><br>
+            <button type="button" class="catSelector" id="button9" onclick="setWord(comicChars)"> 9) Comic Characters</button><br>
+        </div>
+        <div class="gameArea">
+            <div id="categoryText"></div><br>
+            <div id="word"></div><br>
+            <div id="userInput"></div><br>
+            <div id="messageBox"></div><br>
+            <div id="strikeCounter"></div><br>
+            <div id="guessedLetters"></div>
+        </div>
+    </div>
+</body>
+
+</html>
